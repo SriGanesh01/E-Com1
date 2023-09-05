@@ -1,0 +1,56 @@
+.EachProduct{
+    display: inline-block;
+    margin-right: 0px;
+    height: 220px;
+    width: 280px;
+    background-color: rebeccapurple;
+    margin: 16px;
+}
+.PreviewImg{
+    display: flex;
+    height: 125px;
+    width: 256px;
+    margin: 0 auto;
+    background-color: blue;
+    margin-top: 10px;
+}
+.AboutProduct{
+    color: white;
+    padding-left: 10px;
+}
+.ProductName{
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+.Price{
+    overflow-wrap:break-word;
+    display: inline-block;
+    width: 173.84px;
+}
+
+.innerPrice{
+    margin: 0px;
+    max-height: 18px;
+}
+
+.ProductBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1277px;
+}
+.Buy{
+    color: red;
+    display: inline-block;
+    width: 96.16px;
+}
+.PriceReview{
+    border: 3px;
+    display: flex;
+    flex-direction: row;
+}
+.innerRating{
+    margin: 0px;
+    margin-top: 7px;
+}
+
+
